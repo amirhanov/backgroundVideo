@@ -10,11 +10,36 @@ If you like the project, do not forget to put star `★` and follow me on GitHub
 
 ## Requirements
 
-Swift `4 +`. Ready for use on `iOS 10+`.
+Swift `4+`. Ready for use on `iOS 10+`.
 
 ## Example
 
+To run the example project, clone the repo, and run scheme from .xcodeproj
+
 ## Usage
+
+### CocoaPods
+
+To install Flashy TabBar add the following line to your Podfile:
+```
+pod 'CBFlashyTabBarController'
+```
+
+### CocoaPods
+
+1. Open .xcodeproj file.
+2. Open swift file ViewController.
+3. Add a custom image icon and title for UITabBarItem of each child ViewContrroller
+
+```
+let videoURL: NSURL = Bundle.main.url(forResource: "Имя файла", withExtension: ".формат")! as NSURL
+```
+
+or 
+
+```
+let url = URL(string: "Ссылка на видео")!
+```
 
 ## Support
 
