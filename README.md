@@ -22,7 +22,9 @@ To run the example project, clone the repo, and run scheme from .xcodeproj
 
 To install project you need run the command on **Terminal**:
 
-```pod install```
+```
+pod install
+```
 
 ### Usage
 
@@ -31,20 +33,25 @@ To install project you need run the command on **Terminal**:
 3. Import video file to project
 4. Then paste the file name and format into the appropriate places:
 
-For local video:
-```let videoURL: NSURL = Bundle.main.url(forResource: "Имя файла", withExtension: ".формат")! as NSURL```
+4.1 For local video:
+
+```
+let videoURL: NSURL = Bundle.main.url(forResource: "Имя файла", withExtension: ".формат")! as NSURL
+```
 
 or
 
-For web video:
+4.2 For web video:
 
-```let url = URL(string: "Ссылка на видео")!```
+```
+let url = URL(string: "Ссылка на видео")!
+```
 
 5. Press `Command + R` or `Play` and run project. **Great!**
 
 ## Support
 
-Support me with a monthly donation and help me continue activities. Become a sponsors [Yandex.Money](http://bit.ly/2HivTkw) or [Rocket.Bank](http://bit.ly/2TsB8ov)
+Support me with a monthly donation and help me continue activities. Become a sponsors [Yandex.Money](http://bit.ly/2HivTkw) or [Rocket.Bank](http://bit.ly/2TsB8ov).
 
 ## Author
 
@@ -57,4 +64,5 @@ Email: studio@byidole.com
 ## Licence
 
 Available under the MIT license.
+
 © IDOLE Studio.
