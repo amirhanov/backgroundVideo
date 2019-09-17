@@ -1,26 +1,33 @@
-# Video Background iOS
+# Video Background Controller iOS
 
 <img align="right" src="" width="250"/>
 
 
 
-If you like the project, do not forget to put star `★` and follow me on GitHub:
+If you like the project, do not forget to put star and follow me on GitHub:
 
 [![https://github.com/amirhanov](https://github.com/amirhanov/backgroundVideo/blob/master/Source/gitHub.svg)](https://github.com/amirhanov)
 
 ## Requirements
 
-Swift `4+`. Ready for use on `iOS 10+`.
+Swift `4+`. Ready for use on iOS `9+`.
 
 ## Example
 
-To run the example project, clone the repo, and run scheme from .xcodeproj
+To run the example project, clone the repo, and run scheme from **.xcodeproj**.
 
 ## Installation and Usage
 
 ### Installation
 
-To install project you need run the command on **Terminal**:
+1. Open **Terminal**
+2. Run command:
+
+```
+cd /project path
+```
+
+3. Then to install project you need run the command on Terminal:
 
 ```
 pod install
