@@ -16,25 +16,31 @@ Swift `4+`. Ready for use on `iOS 10+`.
 
 To run the example project, clone the repo, and run scheme from .xcodeproj
 
-## Usage and Install
+## Installation and Usage
 
-### I
+### Installation
 
 To install project you need run the command on **Terminal**:
 
 ```pod install```
 
-### II
+### Usage
 
-1. Open .xcodeproj file.
-2. Open swift file ViewController.
-3. Add a custom image icon and title for UITabBarItem of each child ViewContrroller
+1. Open .xcodeproj file
+2. Open swift file **ViewController**
+3. Import video file to project
+4. Then paste the file name and format into the appropriate places:
 
+For local video:
 ```let videoURL: NSURL = Bundle.main.url(forResource: "Имя файла", withExtension: ".формат")! as NSURL```
 
-or 
+or
+
+For web video:
 
 ```let url = URL(string: "Ссылка на видео")!```
+
+5. Press `Command + R` or `Play` and run project. **Great!**
 
 ## Support
 
