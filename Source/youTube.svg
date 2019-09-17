@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="92" height="42" viewBox="0 0 92 42">
+  <defs>
+    <linearGradient id="youtube-a" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="red"/>
+      <stop offset="100%" stop-color="red"/>
+    </linearGradient>
+    <polygon id="youtube-b" points="0 .133 15.932 .133 15.932 11.862 0 11.862"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <rect width="90" height="40" fill="url(#youtube-a)" fill-rule="nonzero" stroke="red" rx="2"/>
+    <text fill="#FFF" font-family="SFProDisplay-Regular, SF Pro Display" font-size="14" transform="translate(40 12)">
+      <tspan x="0" y="13">Follow</tspan>
+    </text>
+    <g transform="translate(12 14)">
+      <g transform="translate(0 .005)">
+        <mask id="youtube-c" fill="#fff">
+          <use xlink:href="#youtube-b"/>
+        </mask>
+        <path fill="#FFF" d="M15.5995279,1.96406897 C15.4163148,1.24310345 14.8763803,0.67537931 14.1908721,0.482689655 C12.9483803,0.132482759 7.96621639,0.132482759 7.96621639,0.132482759 C7.96621639,0.132482759 2.98405246,0.132482759 1.74156066,0.482689655 C1.05605246,0.67537931 0.516118033,1.24310345 0.332904918,1.96406897 C5.24590164e-05,3.27082759 5.24590164e-05,5.99731034 5.24590164e-05,5.99731034 C5.24590164e-05,5.99731034 5.24590164e-05,8.7237931 0.332904918,10.0304138 C0.516118033,10.7513793 1.05605246,11.3192414 1.74156066,11.511931 C2.98405246,11.8621379 7.96621639,11.8621379 7.96621639,11.8621379 C7.96621639,11.8621379 12.9483803,11.8621379 14.1908721,11.511931 C14.8763803,11.3192414 15.4163148,10.7513793 15.5995279,10.0304138 C15.9325115,8.7237931 15.9325115,5.99731034 15.9325115,5.99731034 C15.9325115,5.99731034 15.9325115,3.27082759 15.5995279,1.96406897" mask="url(#youtube-c)"/>
+      </g>
+      <polygon fill="red" points="6.373 8.516 10.512 6.003 6.373 3.489"/>
+    </g>
+  </g>
+</svg>
