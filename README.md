@@ -3,6 +3,7 @@
 <img align="right" src="https://github.com/amirhanov/backgroundVideo/blob/master/Source/gif.gif" height="250"/>
 
 Hello everyone ✌️ 
+
 Create background video for the application. Consider two options: first - native with the AVPlayer and AVFoundation and second - with Cocoa Pods (SwiftVideoBackground).
 
 If you like the project, do not forget to put star and follow me on GitHub:
