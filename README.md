@@ -33,7 +33,7 @@ pod install
 3. Import video file to project
 4. Then paste the file name and format into the appropriate places:
 
-4.1 For local video:
+4.1. For local video:
 
 ```
 let videoURL: NSURL = Bundle.main.url(forResource: "Имя файла", withExtension: ".формат")! as NSURL
@@ -41,7 +41,7 @@ let videoURL: NSURL = Bundle.main.url(forResource: "Имя файла", withExte
 
 or
 
-4.2 For web video:
+4.2. For web video:
 
 ```
 let url = URL(string: "Ссылка на видео")!
