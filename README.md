@@ -4,7 +4,9 @@
 
 Hello everyone ✌️ 
 
-Create a beautiful video background for your application. There are two methods in this project to achieve this goal. The first - natively with the help of player frameworks AVPlayer and AVFoundation. The second - with the help of the dependency manager Cocoa Pods.
+Create a beautiful video background for your application. There are two methods in this project to achieve this goal:
+- First - natively with the help of player frameworks AVPlayer and AVFoundation. 
+- The second - with the help of the dependency manager Cocoa Pods.
 
 If you like the project, do not forget to put star and follow me on GitHub:
 
