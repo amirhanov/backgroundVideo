@@ -6,7 +6,7 @@
 
 If you like the project, do not forget to `put star ★` and follow me on GitHub:
 
-[![https://github.com/amirhanov]()](https://github.com/amirhanov)
+[![https://github.com/amirhanov](https://github.com/amirhanov/backgroundVideo/blob/master/Source/gitHub.svg)](https://github.com/amirhanov)
 
 ## Exam
 
