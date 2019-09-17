@@ -1,8 +1,8 @@
 # Video Background Controller iOS
 
-<img align="right" src="https://github.com/amirhanov/backgroundVideo/blob/master/Source/gif.gif" width="250"/>
+<img align="right" src="https://github.com/amirhanov/backgroundVideo/blob/master/Source/gif.gif" height="250"/>
 
-Hello everyone, in this project we will learn how to create a video background for the application. Consider two options: firsr - native without other SDK and second - using Cocoa Pods.
+Hello everyone ✌️ Create background video for the application. Consider two options: first - native with the AVPlayer and AVFoundation and second - with Cocoa Pods.
 
 If you like the project, do not forget to put star and follow me on GitHub:
 
