@@ -16,30 +16,25 @@ Swift `4+`. Ready for use on `iOS 10+`.
 
 To run the example project, clone the repo, and run scheme from .xcodeproj
 
-## Usage
+## Usage and Install
 
-### CocoaPods
+### I
 
-To install Flashy TabBar add the following line to your Podfile:
-```
-pod 'CBFlashyTabBarController'
-```
+To install project you need run the command on **Terminal**:
 
-### CocoaPods
+```pod install```
+
+### II
 
 1. Open .xcodeproj file.
 2. Open swift file ViewController.
 3. Add a custom image icon and title for UITabBarItem of each child ViewContrroller
 
-```
-let videoURL: NSURL = Bundle.main.url(forResource: "Имя файла", withExtension: ".формат")! as NSURL
-```
+```let videoURL: NSURL = Bundle.main.url(forResource: "Имя файла", withExtension: ".формат")! as NSURL```
 
 or 
 
-```
-let url = URL(string: "Ссылка на видео")!
-```
+```let url = URL(string: "Ссылка на видео")!```
 
 ## Support
 
@@ -47,7 +42,7 @@ Support me with a monthly donation and help me continue activities. Become a spo
 
 ## Author
 
-Amirhanov, studio@byidole.com
+Email: studio@byidole.com
 
 [![https://www.youtube.com/channel/UChAjZCAZEqDSEbTAYOxGwSA?sub_confirmation=1](https://github.com/amirhanov/backgroundVideo/blob/master/Source/youTube.svg)](https://www.youtube.com/channel/UChAjZCAZEqDSEbTAYOxGwSA?sub_confirmation=1) 
 [![https://www.behance.net/amirhanov](https://github.com/amirhanov/backgroundVideo/blob/master/Source/behance.svg)](https://www.behance.net/amirhanov)
@@ -56,3 +51,4 @@ Amirhanov, studio@byidole.com
 ## Licence
 
 Available under the MIT license.
+© IDOLE Studio.
