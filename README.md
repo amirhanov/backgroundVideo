@@ -1,6 +1,6 @@
 # Video Background Controller iOS
 
-<img align="right" src="https://github.com/amirhanov/backgroundVideo/blob/master/Source/git.gif" width="250"/>
+<img align="right" src="https://github.com/amirhanov/backgroundVideo/blob/master/Source/gif.gif" width="250"/>
 
 Hello everyone, in this project we will learn how to create a video background for the application. Consider two options: firsr - native without other SDK and second - using Cocoa Pods.
 
