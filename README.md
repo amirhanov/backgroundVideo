@@ -8,7 +8,11 @@ If you like the project, do not forget to put star `★` and follow me on GitHub
 
 [![https://github.com/amirhanov](https://github.com/amirhanov/backgroundVideo/blob/master/Source/gitHub.svg)](https://github.com/amirhanov)
 
-## Exam
+## Requirements
+
+Swift `4 +`. Ready for use on `iOS 10+`.
+
+## Example
 
 ## Usage
 
@@ -19,8 +23,6 @@ Support me with a monthly donation and help me continue activities. Become a spo
 ## Author
 
 Amirhanov, studio@byidole.com
-
-## 
 
 [![https://www.youtube.com/channel/UChAjZCAZEqDSEbTAYOxGwSA?sub_confirmation=1](https://github.com/amirhanov/backgroundVideo/blob/master/Source/youTube.svg)](https://www.youtube.com/channel/UChAjZCAZEqDSEbTAYOxGwSA?sub_confirmation=1) 
 [![https://www.behance.net/amirhanov](https://github.com/amirhanov/backgroundVideo/blob/master/Source/behance.svg)](https://www.behance.net/amirhanov)
