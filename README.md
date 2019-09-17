@@ -2,7 +2,7 @@
 
 <img align="right" src="" width="250"/>
 
-
+Hello everyone, in this project we will learn how to create a video background for the application. Consider two options: firsr - native without other SDK and second - using Cocoa Pods.
 
 If you like the project, do not forget to put star and follow me on GitHub:
 
