@@ -6,7 +6,7 @@ Hello everyone ✌️
 
 Create a beautiful video background for your application. There are two methods in this project to achieve this goal:
 - First - natively with the help of player frameworks AVPlayer and AVFoundation. 
-- The second - with the help of the dependency manager Cocoa Pods.
+- Second - with the help of the dependency manager Cocoa Pods.
 
 If you like the project, do not forget to put star and follow me on GitHub:
 
@@ -39,7 +39,7 @@ pod install or pod update
 
 You can use one of two options. 
 
-For local video:
+I. For local video:
 
 1. Open **.xcodeproj** file
 2. Import video file to project. Check the box **copy if needed**
@@ -52,7 +52,7 @@ let videoURL: NSURL = Bundle.main.url(forResource: "file name", withExtension: "
 
 5. Press `Command + R` or `Play` and run project
 
-For url video:
+II. For url video:
 
 1. Uncomment a piece of code for url in method **viewDidLoad**:
 
