@@ -14,12 +14,12 @@ import SwiftVideoBackground
 class ViewController: UIViewController {
     
     var player: AVPlayer?
-    let videoURL: NSURL = Bundle.main.url(forResource: "1", withExtension: ".mp4")! as NSURL
+    let videoURL: NSURL = Bundle.main.url(forResource: "file name", withExtension: ".format")! as NSURL
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Первый метод
+        // From local:
         
         player = AVPlayer(url: videoURL as URL)
         player?.actionAtItemEnd = .none
@@ -35,6 +35,10 @@ class ViewController: UIViewController {
         player?.play()
         
         NotificationCenter.default.addObserver(self, selector: #selector(loopVideo), name: NSNotification.Name.AVPlayerItemDidPlayToEndTime, object: self.player)
+        
+        // From URL:
+        
+        //try? VideoBackground.shared.play(view: view, videoName: "file name", videoType: "format")
     }
     
     fileprivate func playerItemDidReachEnd() {

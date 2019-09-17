@@ -2,7 +2,7 @@
 
 <img align="right" src="https://github.com/amirhanov/backgroundVideo/blob/master/Source/gif.gif" height="250"/>
 
-Hello everyone ✌️ Create background video for the application. Consider two options: first - native with the AVPlayer and AVFoundation and second - with Cocoa Pods.
+Hello everyone ✌️ Create background video for the application. Consider two options: first - native with the AVPlayer and AVFoundation and second - with Cocoa Pods (SwiftVideoBackground).
 
 If you like the project, do not forget to put star and follow me on GitHub:
 
@@ -33,26 +33,32 @@ pod install
 
 ## Usage
 
+You can use one of two options. 
+
+For local video:
+
 1. Open **.xcodeproj** file
-2. Open swift file **ViewController**
-3. Import video file to project
-4. Then paste the file name and format into the appropriate places:
-
-4.1. For local video:
+2. Import video file to project. Check the box **copy if needed**
+3. Open swift file **ViewController**
+4. Then paste the file name and format into the appropriate place:
 
 ```
-let videoURL: NSURL = Bundle.main.url(forResource: "Имя файла", withExtension: ".формат")! as NSURL
+let videoURL: NSURL = Bundle.main.url(forResource: "file name", withExtension: ".format")! as NSURL
 ```
 
-or
+5. Press `Command + R` or `Play` and run project
 
-4.2. For web video:
+For url video:
+
+1. Uncomment a piece of code for url in method **viwDidLoad**:
 
 ```
-let url = URL(string: "Ссылка на видео")!
+try? VideoBackground.shared.play(view: view, videoName: "file name", videoType: "format")
 ```
 
-5. Press `Command + R` or `Play` and run project. **Great!**
+2. Then paste the file name and format into the appropriate place
+3. In method **viwDidLoad**, comment out a piece of code for local video
+3. Press `Command + R` or `Play` and run project. **Great!**
 
 ## Support
 
