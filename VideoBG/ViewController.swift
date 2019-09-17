@@ -14,7 +14,7 @@ import SwiftVideoBackground
 class ViewController: UIViewController {
     
     var player: AVPlayer?
-    let videoURL: NSURL = Bundle.main.url(forResource: "Имя файла", withExtension: ".формат")! as NSURL
+    let videoURL: NSURL = Bundle.main.url(forResource: "1", withExtension: ".mp4")! as NSURL
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,11 +35,6 @@ class ViewController: UIViewController {
         player?.play()
         
         NotificationCenter.default.addObserver(self, selector: #selector(loopVideo), name: NSNotification.Name.AVPlayerItemDidPlayToEndTime, object: self.player)
-        
-        // Второй метод
-        
-        let url = URL(string: "Ссылка на видео")!
-        VideoBackground.shared.play(view: view, url: url)
     }
     
     fileprivate func playerItemDidReachEnd() {
@@ -51,6 +46,10 @@ class ViewController: UIViewController {
         
         player?.seek(to: CMTime.zero)
         player?.play()
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
     }
 }
 

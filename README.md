@@ -1,6 +1,6 @@
 # Video Background Controller iOS
 
-<img align="right" src="" width="250"/>
+<img align="right" src="https://github.com/amirhanov/backgroundVideo/blob/master/Source/git.gif" width="250"/>
 
 Hello everyone, in this project we will learn how to create a video background for the application. Consider two options: firsr - native without other SDK and second - using Cocoa Pods.
 
@@ -16,9 +16,7 @@ Swift `4+`. Ready for use on iOS `9+`.
 
 To run the example project, clone the repo, and run scheme from **.xcodeproj**.
 
-## Installation and Usage
-
-### Installation
+## Installation
 
 1. Open **Terminal**
 2. Run command:
@@ -33,9 +31,9 @@ cd /project path
 pod install
 ```
 
-### Usage
+## Usage
 
-1. Open .xcodeproj file
+1. Open **.xcodeproj** file
 2. Open swift file **ViewController**
 3. Import video file to project
 4. Then paste the file name and format into the appropriate places:
