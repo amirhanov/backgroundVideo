@@ -66,7 +66,7 @@ try? VideoBackground.shared.play(view: view, videoName: "file name", videoType: 
 
 ## Support
 
-Support me with a monthly donation and help me continue activities. Become a sponsors [Yandex.Money](http://bit.ly/2HivTkw) or [Rocket.Bank](http://bit.ly/2TsB8ov).
+Support me with a monthly donation and help me continue activities. Become a sponsors [Yandex.Money](http://bit.ly/2HivTkw) or [Tinkoff Bank](https://bit.ly/3ayHSGx).
 
 ## Author
 
